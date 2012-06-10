@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
+gem 'rails', '3.2.5'
+#gem 'rails', '3.2.4.rc1'
+gem 'bootstrap-sass', '2.0.0'
 
-gem 'rails', '3.2.4.rc1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,6 +13,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.10.0'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 
